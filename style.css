@@ -9,6 +9,15 @@
   height: 3279px;
 }
 
+body {
+  width: 1280px;
+  max-width: 1280px;
+  border: solid;
+  border-width: 80px;
+  border-color: #333333;
+  border-radius: 40px;
+}
+
 h2 {
   font-size: 16px;
   line-height: 22px;
@@ -27,7 +36,7 @@ h2 {
 }
 
 .busanimg {
-  width: 100%;
+  width: 1120px;
   height: 660;
   border-radius: 28px;
   margin: 0px 80px 0px 80px;
@@ -39,15 +48,18 @@ h2 {
   font-style: italic;
   text-align: center;
   color: #333333;
-  margin: 24px -80px 0px 80px;
-  padding-left: 20px;
+  margin: 24px 80px 0px 80px;
 }
 
 .dividerup {
-  width: 100%;
+  width: 87%;
   height: 1px;
   margin: 36px 0px 36px 80px;
   background-color: #d9d9d9;
+}
+
+ol {
+  padding-left: 0px;
 }
 
 h1 {
@@ -59,15 +71,16 @@ h1 {
 #busantext {
   margin: 0px -80px 16px 80px;
   font-size: 16px;
-  text-align: justify;
+  text-align: start;
+  width: 1120px;
   }  
 
-ol {
-  padding-left: 0px;
+ol li {
+  list-style-position: inside;
 }
 
 #img {
-  width: 100%;
+  width: 1120px;
   height: 375px;
   border-radius: 28px;
   margin-left: 80px;
@@ -76,29 +89,72 @@ ol {
   margin-top: 48px;
 }
 
-h3 {
+#h3 {
   margin: 20px 80px 0px 80px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 0px 80px 0px 80px;
+}
+
+#inputText {
+  font-weight: bold;
+}
+
+#history {
+  color: #0C51A7;
+  margin-left: 40px;
+}
+
+#casais, #familias, #orçamento {
+  margin-left: 40px;
 }
 
 #casais {
-  color: blue;
+  color: #591B98;
 }
 
 #familias {
-  color: rgb(209, 212, 0);
+  color: #E5245E;
 }
 
 #orçamento {
-  color: rgb(0, 255, 21);
+  color: #E95E10;
 }
 
 ul li::marker {
   color: #333333;
 }
 
+ul li {
+  list-style-type: disc;
+}
+
 .divider {
-  width: 100%;
+  width: 87%;
   height: 1px;
   margin: 40px 80px 40px 80px;
   background-color: #d9d9d9;
+}
+
+#foot {
+  text-align: center;
+  width: 1120px;
+  margin-left: 80px;
+}
+
+footer {
+  margin-left: 590px;
+  margin-bottom: 48px;
+  width: 206;
+  display: inline;
+  box-sizing: border-box;
+}
+
+#footerImg {
+  display: inline;
+  vertical-align: middle;
 }
